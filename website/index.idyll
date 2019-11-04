@@ -1,0 +1,114 @@
+[meta title:"Ship Parameter Visualization" description:"An introduction to ship design parameters" /]
+
+[Header
+  fullWidth:true
+  title:"Ship Parameter Visualization"
+  subtitle:"A short introduction to ship design parameters."
+  author:"James Coller"
+  authorLink:"https://sites.google.com/umich.edu/jcoller"
+  date:`(new Date()).toDateString()`
+  background:"#222222"
+  color:"#ffffff"
+   /]
+
+
+## Introduction
+
+The goal of this web page is to explain several key parameters of a ship design. 
+
+
+## Ship Design Dimensions 
+
+There are several dimensions in any given ship desgin. They are as follows:
+
+LOA: Length Overall, length of the ship from bow to stern (front to back)
+
+LBP: Length Between Perpendiculars, which are typically where the waterline starts and ends
+
+LWL: Length on the Waterline, the length of the ship where it hits the top of the water (may be different than LBP)
+
+B: Beam, the width of the ship at the widest part 
+
+T: Draft, the depth of the ship below the waterline 
+
+D: Depth, the depth of the ship from the main deck to the keel (bottom)
+
+DWT: Deadweight, the weight of the cargo the ship can carry 
+
+Vk: Design Speed, the speed the ship is designed to transit at (not necessarily the maximum speed)
+
+The following diagrams display several of these characteristics: 
+
+![img1](static/images/Inboard.png)
+
+![img2](static/images/Beam.png)
+
+## Ship Types 
+
+There are many different types of ships that transit the worlds oceans, lakes, and rivers. For the purposes of this tutorial, we will focus on the following types of ships: 
+
+![img3](static/images/HeavyLift.jpeg)
+
+```
+A heavy lift ship, the M/V Mighty Servant. Photo by crewmember - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=9780070.
+```
+
+![img4](static/images/Container.jpg)
+
+```
+A container ship, the M/V Cosco Guangzhou. Photo by AlfvanBeem - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=18372888.
+```
+
+![img5](static/images/FFG7.jpg)
+
+```
+A fast frigate, the USS Oliver Hazard Perry (FFG 7). Photo by PHC Francavillo, U.S. Navy - This media is available in the holdings of the National Archives and Records Administration, cataloged under the National Archives Identifier (NAID) 6467766., Public Domain, https://commons.wikimedia.org/w/index.php?curid=1271435.
+```
+
+![img6](static/images/PB.jpg)
+
+```
+A navy patroal boat, the HMAS Townsville (FCPB 205). Photo by JO1 LEE BOSCO - This media is available in the holdings of the National Archives and Records Administration, cataloged under the National Archives Identifier (NAID) 6456543., Public Domain, https://commons.wikimedia.org/w/index.php?curid=15386806
+```
+
+![img7](static/images/Product.jpg)
+
+```
+A product tanker, the M/V Sirius Star. Photo by U.S. Navy photo by Aviation Warfare Systems Operator 2nd Class William S. Stevens - Navy.mil, Public Domain, https://commons.wikimedia.org/w/index.php?curid=5235118.
+```
+
+![img8](static/images/RV.jpeg)
+
+```
+A research vessel, the R/V Sally Ride. Photo by US Navy Photo/Released - This Image was released by the United States Navy with the ID 160225-N-EW716-001, Public Domain, https://commons.wikimedia.org/w/index.php?curid=47748233. 
+```
+
+## Introduction to Key Ratios
+
+In ship design, several key ratios are examined: 
+
+L/B: The length to beam ratio. This gives an indication of stability and strength.
+
+B/T: The beam to draft ratio. This is also used for stability assessment. 
+
+CB: The block coefficient. This is how "boxy" a ship is considered, with a CB of 1 being a box. 
+
+CP: The prismatic coefficient. Similar to CB, this gives an indication of how tapered the bow and stern are from the maximum section area. 
+
+CX: The maximum section area coefficeint. This describes how full the maximum section (think rectangle cut across the ship from side to side) is compared to if it were a perfect rectangle with dimensions B and T. 
+
+Fn: The Froude number. This is an indication of how fast the ship moves. 
+
+These ratios help designers understand the ship particulars better. Across a given ship type, many of these ratios will hold constant. For example, a container ship will often have a L/B ratio around 6.5, while a research vessel may have a L/B ratio closer to 4.5. Similarly, large slower ships will have large prismatic and block coefficients, which means they are built to maximize cargo space, such as product tankers or containerships. Smaller, speedy ships, such as naval patroal boats or fast frigates, will have much smaller block coefficients and prismatic coefficients with higher Froude numbers which indicates the relative faster speed. 
+
+## Exploring the design factors
+
+In the following interactive graphic, explore the design factors that make up the ratios. The interactive sliders at the bottom will allow you to limit ships by their length, and you can limit the type of ship using the dropdown. Hold your mouse over a point to find out more about what ship it is. The point will be highlighted across all plots in this section. 
+
+Take note of the trends and ratios that are formed. 
+
+## Examining key ratios
+
+In this section, learn about the key ratios that ship designers look at. Again, look for patterns and trends. Use your mouse to explore and filter by ship type. These graphs will allow you to zoom in and out. 
+
+
